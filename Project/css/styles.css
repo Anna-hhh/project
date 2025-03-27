@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
+  background: #070707;
+  color: #18e80d;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #55d912;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.content {
+  padding: 16px;
+  color: rgb(10, 149, 13);
+  margin-top: 60px; /* Increase this value based on header height */
+}
+
+
+
+.dark-background {
+    background-color: rgb(0, 0, 0);
+}
+
+
+header {
+  position: relative; /* Keep header relative for proper positioning */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space out the content */
+  align-items: center; /* Vertically center the items */
+  padding: 10px 16px; /* Add padding for spacing */
+}
+
+.button_container {
+  position: static; /* Remove absolute positioning */
+  display: flex; /* Align buttons horizontally */
+  gap: 10px; /* Add spacing between buttons */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #18e80d; /* Green background for buttons */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  padding-top: 2px;
+  position: static; /* Remove absolute positioning */
+}
+
+.image-goa img {
+  width: 100vw;  /* Full width of screen */
+  height: 100vh; /* Full height of screen */
+  object-fit: cover; /* Ensures image fills the space without distortion */
+}
